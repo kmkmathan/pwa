@@ -10,9 +10,9 @@
         "https://kmkmathan.github.io/pwa/favicon.ico",
         "https://kmkmathan.github.io/pwa/index.html",
         "https://kmkmathan.github.io/pwa/inline.318b50c57b4eba3d437b.bundle.js",
-        "https://kmkmathan.github.io/pwa/main.a2fb0fa357eb5c9786cd.bundle.js",
-        "https://kmkmathan.github.io/pwa/polyfills.b6b2cd0d4c472ac3ac12.bundle.js",
-        "https://kmkmathan.github.io/pwa/styles.ac89bfdd6de82636b768.bundle.css"
+        "https://kmkmathan.github.io/pwa/main.ce1d900dd4bd99a73e1f.bundle.js",
+        "https://kmkmathan.github.io/pwa/polyfills.afd5ca7a9365d12a01be.bundle.js",
+        "https://kmkmathan.github.io/pwa/styles.25ae23234e67a9f6c270.bundle.css"
       ],
       "patterns": []
     },
@@ -20,17 +20,96 @@
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
-      "urls": [],
+      "urls": [
+        "https://kmkmathan.github.io/pwa/assets/backgrounds/skyline-background.svg",
+        "https://kmkmathan.github.io/pwa/assets/backgrounds/skyline-foreground.svg",
+        "https://kmkmathan.github.io/pwa/assets/backgrounds/skyline-midground.svg",
+        "https://kmkmathan.github.io/pwa/assets/icons/android-chrome-192x192.png",
+        "https://kmkmathan.github.io/pwa/assets/icons/android-chrome-512x512.png",
+        "https://kmkmathan.github.io/pwa/assets/icons/apple-touch-icon.png",
+        "https://kmkmathan.github.io/pwa/assets/icons/browserconfig.xml",
+        "https://kmkmathan.github.io/pwa/assets/icons/favicon-16x16.png",
+        "https://kmkmathan.github.io/pwa/assets/icons/favicon-32x32.png",
+        "https://kmkmathan.github.io/pwa/assets/icons/favicon.ico",
+        "https://kmkmathan.github.io/pwa/assets/icons/mstile-144x144.png",
+        "https://kmkmathan.github.io/pwa/assets/icons/mstile-150x150.png",
+        "https://kmkmathan.github.io/pwa/assets/icons/mstile-310x150.png",
+        "https://kmkmathan.github.io/pwa/assets/icons/mstile-310x310.png",
+        "https://kmkmathan.github.io/pwa/assets/icons/mstile-70x70.png",
+        "https://kmkmathan.github.io/pwa/assets/icons/safari-pinned-tab.svg",
+        "https://kmkmathan.github.io/pwa/assets/icons/vendor/github.svg"
+      ],
       "patterns": []
     }
   ],
-  "dataGroups": [],
+  "dataGroups": [
+    {
+      "name": "cities",
+      "patterns": [
+        "https:\\/\\/api\\.openaq\\.org\\/v1\\/cities"
+      ],
+      "strategy": "performance",
+      "maxSize": 2,
+      "maxAge": 1209600000,
+      "version": 1
+    },
+    {
+      "name": "locations",
+      "patterns": [
+        "https:\\/\\/api\\.openaq\\.org\\/v1\\/locations"
+      ],
+      "strategy": "freshness",
+      "maxSize": 20,
+      "maxAge": 259200000,
+      "timeoutMs": 3000,
+      "version": 1
+    },
+    {
+      "name": "latest",
+      "patterns": [
+        "https:\\/\\/api\\.openaq\\.org\\/v1\\/latest"
+      ],
+      "strategy": "freshness",
+      "maxSize": 20,
+      "maxAge": 259200000,
+      "timeoutMs": 3000,
+      "version": 1
+    },
+    {
+      "name": "staticmap",
+      "patterns": [
+        "https:\\/\\/maps\\.googleapis\\.com\\/maps\\/api\\/staticmap"
+      ],
+      "strategy": "performance",
+      "maxSize": 20,
+      "maxAge": 31536000000,
+      "timeoutMs": 5000,
+      "version": 1
+    }
+  ],
   "hashTable": {
     "https://kmkmathan.github.io/pwa/inline.318b50c57b4eba3d437b.bundle.js": "998c6060446975e566fd17509558ddc68d72eec3",
-    "https://kmkmathan.github.io/pwa/main.a2fb0fa357eb5c9786cd.bundle.js": "ade34427165e4b41c988c4662a97ae5d36658d5f",
-    "https://kmkmathan.github.io/pwa/polyfills.b6b2cd0d4c472ac3ac12.bundle.js": "b092f5c27ff4222179ae3e9e3164c8cc6caa09cf",
-    "https://kmkmathan.github.io/pwa/styles.ac89bfdd6de82636b768.bundle.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-    "https://kmkmathan.github.io/pwa/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://kmkmathan.github.io/pwa/index.html": "79fd4351af4fb7689658c0abf539e76bdd4cf3b2"
+    "https://kmkmathan.github.io/pwa/assets/backgrounds/skyline-background.svg": "8342dda215d70322651f86848eee9d457fec62ad",
+    "https://kmkmathan.github.io/pwa/main.ce1d900dd4bd99a73e1f.bundle.js": "a760fe2c722c4de080c7513f40f2fc9b4df6b233",
+    "https://kmkmathan.github.io/pwa/assets/backgrounds/skyline-foreground.svg": "e17db4e506a8404836298fd9e6d481a14627c107",
+    "https://kmkmathan.github.io/pwa/polyfills.afd5ca7a9365d12a01be.bundle.js": "b092f5c27ff4222179ae3e9e3164c8cc6caa09cf",
+    "https://kmkmathan.github.io/pwa/assets/backgrounds/skyline-midground.svg": "39d9001ad4230570f7866db5a8955a9a3165ba2a",
+    "https://kmkmathan.github.io/pwa/styles.25ae23234e67a9f6c270.bundle.css": "9cd3344e62886b0347cb71e5e771d6d0aaab57f3",
+    "https://kmkmathan.github.io/pwa/assets/icons/android-chrome-192x192.png": "b1e0c5d3897cb04a7e7d57eb45cf2165871e8eb1",
+    "https://kmkmathan.github.io/pwa/favicon.ico": "b426363a10aa97c41c7243e7bdabe5d0c003c112",
+    "https://kmkmathan.github.io/pwa/assets/icons/android-chrome-512x512.png": "2e39b0372d55231420c52fd35fe42b3b142fc8f7",
+    "https://kmkmathan.github.io/pwa/index.html": "c69f8529490e29a252e047deafa3c31d2546179b",
+    "https://kmkmathan.github.io/pwa/assets/icons/apple-touch-icon.png": "71e00751748252666cadc66006af17e5b03f3afc",
+    "https://kmkmathan.github.io/pwa/assets/icons/browserconfig.xml": "b7e5ec5d2b3fbe181ed77215c3ff3f1e3b7c87e6",
+    "https://kmkmathan.github.io/pwa/assets/icons/favicon-16x16.png": "b154d5d4cdc90696e9d2794bb5601a084d0c985b",
+    "https://kmkmathan.github.io/pwa/assets/icons/favicon-32x32.png": "db6db49352f3192356de9d40b0d9a9b528756d8d",
+    "https://kmkmathan.github.io/pwa/assets/icons/favicon.ico": "b426363a10aa97c41c7243e7bdabe5d0c003c112",
+    "https://kmkmathan.github.io/pwa/assets/icons/mstile-144x144.png": "e835dac04c99bd186bd6fd24572463651cd55329",
+    "https://kmkmathan.github.io/pwa/assets/icons/mstile-150x150.png": "8b185754be23cae84e5e8f4de41b2bc263036754",
+    "https://kmkmathan.github.io/pwa/assets/icons/mstile-310x150.png": "d491d9646b586b258019f7c6b6a2ed13b9e3e192",
+    "https://kmkmathan.github.io/pwa/assets/icons/mstile-310x310.png": "4b4ada2fe691cdc2c93d66f3a05bc3b1ad7b30c7",
+    "https://kmkmathan.github.io/pwa/assets/icons/mstile-70x70.png": "03374da32b1b09cf2b3ebc3c364b555b6b3c45b1",
+    "https://kmkmathan.github.io/pwa/assets/icons/safari-pinned-tab.svg": "04138f00c03d3337cec7fa79289defba83897f22",
+    "https://kmkmathan.github.io/pwa/assets/icons/vendor/github.svg": "9ce3804b7cad7ad918b04790080d5fd70283e501"
   }
 }
