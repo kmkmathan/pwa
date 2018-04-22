@@ -1,18 +1,18 @@
 {
   "configVersion": 1,
-  "index": "https://kmkmathan.github.io/pwa/index.html",
+  "index": "C:/Program Files/Git/pwa/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "https://kmkmathan.github.io/pwa/favicon.ico",
-        "https://kmkmathan.github.io/pwa/index.html",
-        "https://kmkmathan.github.io/pwa/inline.318b50c57b4eba3d437b.bundle.js",
-        "https://kmkmathan.github.io/pwa/main.ac3caabe1d5b3539e4e7.bundle.js",
-        "https://kmkmathan.github.io/pwa/polyfills.afd5ca7a9365d12a01be.bundle.js",
-        "https://kmkmathan.github.io/pwa/styles.9ea62fd973601447f5a9.bundle.css"
+        "C:/Program Files/Git/pwa/favicon.ico",
+        "C:/Program Files/Git/pwa/index.html",
+        "C:/Program Files/Git/pwa/inline.d6a020b9fdae6a371c36.bundle.js",
+        "C:/Program Files/Git/pwa/main.a2879472751fd74d6e5f.bundle.js",
+        "C:/Program Files/Git/pwa/polyfills.a6c7dc3705b2eae1d27f.bundle.js",
+        "C:/Program Files/Git/pwa/styles.10cafe8ced0dd541e1b5.bundle.css"
       ],
       "patterns": []
     },
@@ -21,11 +21,11 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "https://kmkmathan.github.io/pwa/assets/android-chrome-96x96.png",
-        "https://kmkmathan.github.io/pwa/assets/icon-128x128.png",
-        "https://kmkmathan.github.io/pwa/assets/icon-152x152.png",
-        "https://kmkmathan.github.io/pwa/assets/icon-256x256.png",
-        "https://kmkmathan.github.io/pwa/assets/icon-512x512.png"
+        "C:/Program Files/Git/pwa/assets/android-chrome-96x96.png",
+        "C:/Program Files/Git/pwa/assets/icon-128x128.png",
+        "C:/Program Files/Git/pwa/assets/icon-152x152.png",
+        "C:/Program Files/Git/pwa/assets/icon-256x256.png",
+        "C:/Program Files/Git/pwa/assets/icon-512x512.png"
       ],
       "patterns": [
         "https:\\/\\/cataas\\.com\\/.*"
@@ -34,16 +34,16 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://kmkmathan.github.io/pwa/inline.318b50c57b4eba3d437b.bundle.js": "998c6060446975e566fd17509558ddc68d72eec3",
-    "https://kmkmathan.github.io/pwa/assets/android-chrome-96x96.png": "0e2d64844c33b12933cfa5d14b4c95c001e3a159",
-    "https://kmkmathan.github.io/pwa/main.ac3caabe1d5b3539e4e7.bundle.js": "a28492ea1d322b3bdf64e9eeece94af36b8a2947",
-    "https://kmkmathan.github.io/pwa/assets/icon-128x128.png": "f444fd3ae0dbc3be5741ef77cf9d0aa21bcdd9d5",
-    "https://kmkmathan.github.io/pwa/polyfills.afd5ca7a9365d12a01be.bundle.js": "b092f5c27ff4222179ae3e9e3164c8cc6caa09cf",
-    "https://kmkmathan.github.io/pwa/assets/icon-152x152.png": "c439eef9906d5a1758700fbbc8ea38d7295eb1bb",
-    "https://kmkmathan.github.io/pwa/styles.9ea62fd973601447f5a9.bundle.css": "54d90824d6834826be6668a6cda680adf64602d9",
-    "https://kmkmathan.github.io/pwa/assets/icon-256x256.png": "aa794bf00591bd06c9fee00126b321baa155ee8d",
-    "https://kmkmathan.github.io/pwa/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://kmkmathan.github.io/pwa/assets/icon-512x512.png": "ad9b5746e8a586f161f92b21f97c4cd81b157965",
-    "https://kmkmathan.github.io/pwa/index.html": "332aede722623725b955bd381a4587d875c4694e"
+    "C:/Program Files/Git/pwa/inline.d6a020b9fdae6a371c36.bundle.js": "65966758638181c471037c02100aefa63c1b51ce",
+    "C:/Program Files/Git/pwa/assets/android-chrome-96x96.png": "0e2d64844c33b12933cfa5d14b4c95c001e3a159",
+    "C:/Program Files/Git/pwa/main.a2879472751fd74d6e5f.bundle.js": "86b16a0468d529116d9372b684dc88138f9decf2",
+    "C:/Program Files/Git/pwa/assets/icon-128x128.png": "f444fd3ae0dbc3be5741ef77cf9d0aa21bcdd9d5",
+    "C:/Program Files/Git/pwa/polyfills.a6c7dc3705b2eae1d27f.bundle.js": "94ef35b31d04f82c1be4adcf77e6323696676dec",
+    "C:/Program Files/Git/pwa/assets/icon-152x152.png": "c439eef9906d5a1758700fbbc8ea38d7295eb1bb",
+    "C:/Program Files/Git/pwa/styles.10cafe8ced0dd541e1b5.bundle.css": "f827ca5e07dddccee50fbdb16bd36db0070dba4a",
+    "C:/Program Files/Git/pwa/assets/icon-256x256.png": "aa794bf00591bd06c9fee00126b321baa155ee8d",
+    "C:/Program Files/Git/pwa/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "C:/Program Files/Git/pwa/assets/icon-512x512.png": "ad9b5746e8a586f161f92b21f97c4cd81b157965",
+    "C:/Program Files/Git/pwa/index.html": "e85dbcecb3c9a21760cc1727819bb55b3c1ba098"
   }
 }
