@@ -116,11 +116,7 @@ class CacheTable {
     request(key) { return this.adapter.newRequest('/' + key); }
     'delete'(key) { return this.cache.delete(this.request(key)); }
     keys() {
-<<<<<<< HEAD
         return this.cache.keys().then(keys => keys.map(key => key.substr(1)));
-=======
-        return this.cache.keys().then(requests => requests.map(req => req.url.substr(1)));
->>>>>>> b21504b1209abb938ac8a13acdb95c1a64a9e22f
     }
     read(key) {
         return this.cache.match(this.request(key)).then(res => {
