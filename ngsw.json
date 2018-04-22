@@ -10,7 +10,7 @@
         "https://kmkmathan.github.io/pwa/favicon.ico",
         "https://kmkmathan.github.io/pwa/index.html",
         "https://kmkmathan.github.io/pwa/inline.b30c555ec93d5e8b24c8.bundle.js",
-        "https://kmkmathan.github.io/pwa/main.4f0d989cdb567e6d6950.bundle.js",
+        "https://kmkmathan.github.io/pwa/main.65f64c47d47deec3a41b.bundle.js",
         "https://kmkmathan.github.io/pwa/polyfills.b6b2cd0d4c472ac3ac12.bundle.js"
       ],
       "patterns": []
@@ -23,7 +23,8 @@
         "https://kmkmathan.github.io/pwa/assets/icon-128x128.png",
         "https://kmkmathan.github.io/pwa/assets/icon-152x152.png",
         "https://kmkmathan.github.io/pwa/assets/icon-256x256.png",
-        "https://kmkmathan.github.io/pwa/assets/icon-512x512.png"
+        "https://kmkmathan.github.io/pwa/assets/icon-512x512.png",
+        "https://kmkmathan.github.io/pwa/assets/w-icon.png"
       ],
       "patterns": []
     }
@@ -32,12 +33,13 @@
   "hashTable": {
     "https://kmkmathan.github.io/pwa/inline.b30c555ec93d5e8b24c8.bundle.js": "9798a251a65d32c2f61c5a4d02b7d8c6c04ae147",
     "https://kmkmathan.github.io/pwa/assets/icon-128x128.png": "375a14e89ddbfce94a75b66128538d955457153b",
-    "https://kmkmathan.github.io/pwa/main.4f0d989cdb567e6d6950.bundle.js": "4f8b86a2f6fb348effe39ef1980cc7849a574538",
+    "https://kmkmathan.github.io/pwa/main.65f64c47d47deec3a41b.bundle.js": "266525a93ec6bdf223d4060e4fbaa2ad24715672",
     "https://kmkmathan.github.io/pwa/assets/icon-152x152.png": "192f647fed5f51497eca06510a117e516157f159",
     "https://kmkmathan.github.io/pwa/polyfills.b6b2cd0d4c472ac3ac12.bundle.js": "b092f5c27ff4222179ae3e9e3164c8cc6caa09cf",
     "https://kmkmathan.github.io/pwa/assets/icon-256x256.png": "625b5e3da432e4a64d1080ade64d655104cdd1aa",
     "https://kmkmathan.github.io/pwa/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
     "https://kmkmathan.github.io/pwa/assets/icon-512x512.png": "f56814ff55f7112609aea9056ac4d5c4379b9616",
-    "https://kmkmathan.github.io/pwa/index.html": "cac3f287be7161d39898ed07c11eb0e6708aa103"
+    "https://kmkmathan.github.io/pwa/index.html": "2c311213bc5891af025ed6d0c8fe51a4ca0b6c56",
+    "https://kmkmathan.github.io/pwa/assets/w-icon.png": "2ca9a636d395965cdefc3f401744957aef7d389d"
   }
 }
