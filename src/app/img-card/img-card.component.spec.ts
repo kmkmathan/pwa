@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AraLogoComponent } from './ara-logo.component';
+import { ImgCardComponent } from './img-card.component';
 
-describe('AraLogoComponent', () => {
-  let component: AraLogoComponent;
-  let fixture: ComponentFixture<AraLogoComponent>;
+describe('ImgCardComponent', () => {
+  let component: ImgCardComponent;
+  let fixture: ComponentFixture<ImgCardComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AraLogoComponent ]
+      declarations: [ ImgCardComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AraLogoComponent);
+    fixture = TestBed.createComponent(ImgCardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
