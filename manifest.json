@@ -1,26 +1,20 @@
 {
-  "name": "Progressive Web Cat",
-  "short_name": "pwa",
-  "description": "A funny cat image generator",
-  "icons": [{
-    "src": "assets/icon-128x128.png",
-      "sizes": "128x128",
-      "type": "image/png"
-    }, {
-      "src": "assets/icon-152x152.png",
-      "sizes": "152x152",
-      "type": "image/png"
-    }, {
-      "src": "assets/icon-256x256.png",
-      "sizes": "256x256",
-      "type": "image/png"
-    }, {
-      "src": "assets/icon-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }],
-  "start_url": "index.html",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#673ab7"
+    "name": "cityAQ",
+    "short_name": "cityAQ",
+    "icons": [
+        {
+            "src": "assets/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/icons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#7e57c2",
+    "background_color": "#7e57c2",
+    "display": "standalone",
+    "start_url": "."
 }
