@@ -1,6 +1,6 @@
 {
   "name": "Progressive Web App",
-  "short_name": "PWCat",
+  "short_name": "pwa",
   "description": "Working model",
   "icons": [{
     "src": "assets/icon-128x128.png",
