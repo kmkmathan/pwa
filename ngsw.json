@@ -1,31 +1,18 @@
 {
   "configVersion": 1,
-<<<<<<< HEAD
-  "index": "/PWCat/index.html",
-=======
   "index": "C:/Program Files/Git/pwa/index.html",
->>>>>>> b21504b1209abb938ac8a13acdb95c1a64a9e22f
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-<<<<<<< HEAD
-        "/PWCat/favicon.ico",
-        "/PWCat/index.html",
-        "/PWCat/inline.b51ffd0700f04b6a933c.bundle.js",
-        "/PWCat/main.8be9e9c9cd3cf3071f39.bundle.js",
-        "/PWCat/polyfills.ad37cd45a71cb38eee76.bundle.js",
-        "/PWCat/styles.86112b064e5a404ae09b.bundle.css"
-=======
         "C:/Program Files/Git/pwa/favicon.ico",
         "C:/Program Files/Git/pwa/index.html",
-        "C:/Program Files/Git/pwa/inline.d6a020b9fdae6a371c36.bundle.js",
-        "C:/Program Files/Git/pwa/main.a2879472751fd74d6e5f.bundle.js",
-        "C:/Program Files/Git/pwa/polyfills.a6c7dc3705b2eae1d27f.bundle.js",
-        "C:/Program Files/Git/pwa/styles.10cafe8ced0dd541e1b5.bundle.css"
->>>>>>> b21504b1209abb938ac8a13acdb95c1a64a9e22f
+        "C:/Program Files/Git/pwa/inline.318b50c57b4eba3d437b.bundle.js",
+        "C:/Program Files/Git/pwa/main.a2fb0fa357eb5c9786cd.bundle.js",
+        "C:/Program Files/Git/pwa/polyfills.b6b2cd0d4c472ac3ac12.bundle.js",
+        "C:/Program Files/Git/pwa/styles.ac89bfdd6de82636b768.bundle.css"
       ],
       "patterns": []
     },
@@ -33,50 +20,17 @@
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
-      "urls": [
-<<<<<<< HEAD
-        "/PWCat/assets/icon-128x128.png",
-        "/PWCat/assets/icon-152x152.png",
-        "/PWCat/assets/icon-256x256.png",
-        "/PWCat/assets/icon-512x512.png"
-=======
-        "C:/Program Files/Git/pwa/assets/android-chrome-96x96.png",
-        "C:/Program Files/Git/pwa/assets/icon-128x128.png",
-        "C:/Program Files/Git/pwa/assets/icon-152x152.png",
-        "C:/Program Files/Git/pwa/assets/icon-256x256.png",
-        "C:/Program Files/Git/pwa/assets/icon-512x512.png"
->>>>>>> b21504b1209abb938ac8a13acdb95c1a64a9e22f
-      ],
-      "patterns": [
-        "https:\\/\\/cataas\\.com\\/.*"
-      ]
+      "urls": [],
+      "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-<<<<<<< HEAD
-    "/PWCat/inline.b51ffd0700f04b6a933c.bundle.js": "80ae478b4aee23d5720836161124ba63bc28c2e7",
-    "/PWCat/assets/icon-128x128.png": "f444fd3ae0dbc3be5741ef77cf9d0aa21bcdd9d5",
-    "/PWCat/main.8be9e9c9cd3cf3071f39.bundle.js": "15ce140560efb3a72440ff4c71c0c10220f95ba0",
-    "/PWCat/assets/icon-152x152.png": "c439eef9906d5a1758700fbbc8ea38d7295eb1bb",
-    "/PWCat/polyfills.ad37cd45a71cb38eee76.bundle.js": "f7eca8eeec782793d946a11338044f7426ab3494",
-    "/PWCat/assets/icon-256x256.png": "aa794bf00591bd06c9fee00126b321baa155ee8d",
-    "/PWCat/styles.86112b064e5a404ae09b.bundle.css": "7464a41958778cb56c1e2bf7dd9c5d110525d45f",
-    "/PWCat/assets/icon-512x512.png": "ad9b5746e8a586f161f92b21f97c4cd81b157965",
-    "/PWCat/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/PWCat/index.html": "89404258ed061d950341b429201dd54e5e430640"
-=======
-    "C:/Program Files/Git/pwa/inline.d6a020b9fdae6a371c36.bundle.js": "65966758638181c471037c02100aefa63c1b51ce",
-    "C:/Program Files/Git/pwa/assets/android-chrome-96x96.png": "0e2d64844c33b12933cfa5d14b4c95c001e3a159",
-    "C:/Program Files/Git/pwa/main.a2879472751fd74d6e5f.bundle.js": "86b16a0468d529116d9372b684dc88138f9decf2",
-    "C:/Program Files/Git/pwa/assets/icon-128x128.png": "f444fd3ae0dbc3be5741ef77cf9d0aa21bcdd9d5",
-    "C:/Program Files/Git/pwa/polyfills.a6c7dc3705b2eae1d27f.bundle.js": "94ef35b31d04f82c1be4adcf77e6323696676dec",
-    "C:/Program Files/Git/pwa/assets/icon-152x152.png": "c439eef9906d5a1758700fbbc8ea38d7295eb1bb",
-    "C:/Program Files/Git/pwa/styles.10cafe8ced0dd541e1b5.bundle.css": "f827ca5e07dddccee50fbdb16bd36db0070dba4a",
-    "C:/Program Files/Git/pwa/assets/icon-256x256.png": "aa794bf00591bd06c9fee00126b321baa155ee8d",
+    "C:/Program Files/Git/pwa/inline.318b50c57b4eba3d437b.bundle.js": "998c6060446975e566fd17509558ddc68d72eec3",
+    "C:/Program Files/Git/pwa/main.a2fb0fa357eb5c9786cd.bundle.js": "ade34427165e4b41c988c4662a97ae5d36658d5f",
+    "C:/Program Files/Git/pwa/polyfills.b6b2cd0d4c472ac3ac12.bundle.js": "b092f5c27ff4222179ae3e9e3164c8cc6caa09cf",
+    "C:/Program Files/Git/pwa/styles.ac89bfdd6de82636b768.bundle.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
     "C:/Program Files/Git/pwa/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "C:/Program Files/Git/pwa/assets/icon-512x512.png": "ad9b5746e8a586f161f92b21f97c4cd81b157965",
-    "C:/Program Files/Git/pwa/index.html": "e85dbcecb3c9a21760cc1727819bb55b3c1ba098"
->>>>>>> b21504b1209abb938ac8a13acdb95c1a64a9e22f
+    "C:/Program Files/Git/pwa/index.html": "4664085a223102c2109634a54f11af43a879ed72"
   }
 }
