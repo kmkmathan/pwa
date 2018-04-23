@@ -2306,11 +2306,7 @@ class Driver {
         }
         catch (err) {
             this.debugger.log(err, `Error occurred while updating to manifest ${hash}`);
-<<<<<<< HEAD
-            this.state = DriverReadyState.EXISTING_CLIENTS_ONLY;
-=======
             /*this.state = DriverReadyState.EXISTING_CLIENTS_ONLY;*/ // removing EXISTING_CLIENTS_ONLY state, as it behaves incorrectly in offline testing, both locally & on GitHub pages
->>>>>>> 973be8c314220a0391e1a46b7174383bf9282dba
             this.stateMessage = `Degraded due to failed initialization: ${errorToString(err)}`;
             return false;
         }

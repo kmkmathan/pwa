@@ -1,10 +1,6 @@
 {
   "configVersion": 1,
-<<<<<<< HEAD
-  "index": "https://kmkmathan.github.io/pwa/index.html",
-=======
   "index": "https://kmkmathan.github.io/pwa/index.html", 
->>>>>>> 973be8c314220a0391e1a46b7174383bf9282dba
   "assetGroups": [
     {
       "name": "app",
@@ -13,16 +9,10 @@
       "urls": [
         "https://kmkmathan.github.io/pwa/favicon.ico",
         "https://kmkmathan.github.io/pwa/index.html",
-<<<<<<< HEAD
         "https://kmkmathan.github.io/pwa/inline.318b50c57b4eba3d437b.bundle.js",
         "https://kmkmathan.github.io/pwa/main.a2fb0fa357eb5c9786cd.bundle.js",
         "https://kmkmathan.github.io/pwa/polyfills.b6b2cd0d4c472ac3ac12.bundle.js",
         "https://kmkmathan.github.io/pwa/styles.ac89bfdd6de82636b768.bundle.css"
-=======
-        "https://kmkmathan.github.io/pwa/inline.b30c555ec93d5e8b24c8.bundle.js",
-        "https://kmkmathan.github.io/pwa/main.b1e87289e5c90b1f958a.bundle.js",
-        "https://kmkmathan.github.io/pwa/polyfills.b6b2cd0d4c472ac3ac12.bundle.js"
->>>>>>> 973be8c314220a0391e1a46b7174383bf9282dba
       ],
       "patterns": []
     },
@@ -30,40 +20,17 @@
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
-<<<<<<< HEAD
       "urls": [],
-=======
-      "urls": [
-        "https://kmkmathan.github.io/pwa/assets/icon-128x128.png",
-        "https://kmkmathan.github.io/pwa/assets/icon-152x152.png",
-        "https://kmkmathan.github.io/pwa/assets/icon-256x256.png",
-        "https://kmkmathan.github.io/pwa/assets/icon-512x512.png",
-        "https://kmkmathan.github.io/pwa/assets/w-icon.png"
-      ],
->>>>>>> 973be8c314220a0391e1a46b7174383bf9282dba
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-<<<<<<< HEAD
     "https://kmkmathan.github.io/pwa/inline.318b50c57b4eba3d437b.bundle.js": "998c6060446975e566fd17509558ddc68d72eec3",
     "https://kmkmathan.github.io/pwa/main.a2fb0fa357eb5c9786cd.bundle.js": "ade34427165e4b41c988c4662a97ae5d36658d5f",
     "https://kmkmathan.github.io/pwa/polyfills.b6b2cd0d4c472ac3ac12.bundle.js": "b092f5c27ff4222179ae3e9e3164c8cc6caa09cf",
     "https://kmkmathan.github.io/pwa/styles.ac89bfdd6de82636b768.bundle.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
     "https://kmkmathan.github.io/pwa/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
     "https://kmkmathan.github.io/pwa/index.html": "79fd4351af4fb7689658c0abf539e76bdd4cf3b2"
-=======
-    "https://kmkmathan.github.io/pwa/inline.b30c555ec93d5e8b24c8.bundle.js": "9798a251a65d32c2f61c5a4d02b7d8c6c04ae147",
-    "https://kmkmathan.github.io/pwa/assets/icon-128x128.png": "375a14e89ddbfce94a75b66128538d955457153b",
-    "https://kmkmathan.github.io/pwa/main.b1e87289e5c90b1f958a.bundle.js": "e382182a69ec09d4f8ac25c3d10464aa9c8b0e8b",
-    "https://kmkmathan.github.io/pwa/assets/icon-152x152.png": "192f647fed5f51497eca06510a117e516157f159",
-    "https://kmkmathan.github.io/pwa/polyfills.b6b2cd0d4c472ac3ac12.bundle.js": "b092f5c27ff4222179ae3e9e3164c8cc6caa09cf",
-    "https://kmkmathan.github.io/pwa/assets/icon-256x256.png": "625b5e3da432e4a64d1080ade64d655104cdd1aa",
-    "https://kmkmathan.github.io/pwa/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://kmkmathan.github.io/pwa/assets/icon-512x512.png": "f56814ff55f7112609aea9056ac4d5c4379b9616",
-    "https://kmkmathan.github.io/pwa/index.html": "cd7924196ba7fb27c4b9c383aaca7512bd2751a2",
-    "https://kmkmathan.github.io/pwa/assets/w-icon.png": "2ca9a636d395965cdefc3f401744957aef7d389d"
->>>>>>> 973be8c314220a0391e1a46b7174383bf9282dba
   }
 }
