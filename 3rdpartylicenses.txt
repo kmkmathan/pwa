@@ -122,6 +122,7 @@ MIT
 MIT
 MIT
 
+<<<<<<< HEAD
 @angular/service-worker@5.2.10
 MIT
 MIT
@@ -132,4 +133,20 @@ MIT
 
 @angular/platform-browser-dynamic@5.2.10
 MIT
+=======
+@angular/forms@5.2.10
+MIT
+MIT
+
+@angular/service-worker@5.2.10
+MIT
+MIT
+
+@angular/common@5.2.10
+MIT
+MIT
+
+@angular/platform-browser-dynamic@5.2.10
+MIT
+>>>>>>> 973be8c314220a0391e1a46b7174383bf9282dba
 MIT
