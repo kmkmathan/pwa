@@ -1,27 +1,38 @@
-# Model
+# cityAQ
+[![Build Status](https://travis-ci.org/jackkoppa/cityaq.svg?branch=master)](https://travis-ci.org/jackkoppa/cityaq)
+[![Coverage Status](https://coveralls.io/repos/github/jackkoppa/cityaq/badge.svg?branch=master)](https://coveralls.io/github/jackkoppa/cityaq?branch=master)
+## Background
+Angular PWA to compare simple air quality data for different cities, using the [OpenAQ](https://openaq.org/) API. A quick, mobile-first reference for current air quality information around the world, with native-like ease of use & offline availability. 
+* Strongly typed OpenAQ API implementation using TypeScript
+* Service Workers for moderate offline usage & adherence to [PWA guidelines](https://developers.google.com/web/progressive-web-apps/) (users prompted to install web app on Android browsers)
+* Angular Material for UI components
+* Google Static Maps API for location images
+* Modularized Sass for styling
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+## Running Locally
+### Install
+* Node.js & npm ([link](https://nodejs.org/en/download/))
 
-## Development server
+### Run
+```shell
+npm install -g @angular/cli
+git clone https://github.com/jackkoppa/cityaq.git
+cd cityaq
+npm install
+ng serve
+```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Livereloading dev server now available at `http://localhost:4200/`
 
-## Code scaffolding
+### Run w/ Service Worker
+Since the Angular [`ServiceWorkerModule`](https://angular.io/api/service-worker/ServiceWorkerModule) cannot be tested using the normal Webpack dev server, run the steps above, but instead of `ng serve`, run:
+```shell
+npm install -g http-server
+npm run sw-build
+cd dist
+http-server -p 8080
+```
+Server now available at `http://localhost:8080/`, without livereload
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Contributors
+Big thanks to [RobertImbrie](https://github.com/RobertImbrie) & [hegotgame](https://github.com/hegotgame) for their help in getting the project started @ Rokkincat's Hack & Tell on Oct. 21, 2017.

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+    <defs>
+        <circle id="a" cx="32" cy="32" r="32"/>
+        <linearGradient id="c" x1="45.013%" x2="55.005%" y1="97.173%" y2="2.81%">
+            <stop offset="0%" stop-color="gray" stop-opacity=".25"/>
+            <stop offset="54%" stop-color="gray" stop-opacity=".12"/>
+            <stop offset="100%" stop-color="gray" stop-opacity=".1"/>
+        </linearGradient>
+        <linearGradient id="d" x1="68597%" x2="68597%" y1="79720%" y2="12694%">
+            <stop offset="0%" stop-color="gray" stop-opacity=".25"/>
+            <stop offset="54%" stop-color="gray" stop-opacity=".12"/>
+            <stop offset="100%" stop-color="gray" stop-opacity=".1"/>
+        </linearGradient>
+        <linearGradient id="e" x1="51793%" x2="51793%" y1="71946%" y2="4968%">
+            <stop offset="0%" stop-color="gray" stop-opacity=".25"/>
+            <stop offset="54%" stop-color="gray" stop-opacity=".12"/>
+            <stop offset="100%" stop-color="gray" stop-opacity=".1"/>
+        </linearGradient>
+        <linearGradient id="f" x1="53.187%" x2="48.09%" y1="99.166%" y2="-1.179%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity=".12"/>
+            <stop offset="55%" stop-color="#FFF" stop-opacity=".09"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity=".02"/>
+        </linearGradient>
+        <linearGradient id="g" x1="35617%" x2="35617%" y1="63940%" y2="57400%">
+            <stop offset="0%" stop-color="gray" stop-opacity=".25"/>
+            <stop offset="54%" stop-color="gray" stop-opacity=".12"/>
+            <stop offset="100%" stop-color="gray" stop-opacity=".1"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="b" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <use fill="#DDE3E9" xlink:href="#a"/>
+        <g fill-rule="nonzero" mask="url(#b)">
+            <g transform="translate(4 9)">
+                <path fill="url(#c)" d="M50.322 66L8.246 62.559l4.637-57.22 42.077 3.44z"/>
+                <path fill="#6C63FF" d="M49.818 65.183l-40.943-3.35 4.512-55.678 40.944 3.349z"/>
+                <path fill="url(#d)" d="M52.238 56.379l-41.458 8L0 8.001 41.458 0z"/>
+                <path fill="#E0E0E0" d="M51.534 55.727l-40.34 7.786L.703 8.652 41.044.867z"/>
+                <path fill="url(#e)" d="M5.011 4.258h42.216v57.41H5.011z"/>
+                <path fill="#FFF" d="M5.58 5.031h41.079v55.863H5.58z"/>
+                <path fill="url(#f)" d="M19.423 14.67c.044 3.738 3.098 6.732 6.819 6.686 3.721-.047 6.703-3.113 6.657-6.851a6.773 6.773 0 0 0-4.534-6.317l.021 1.744a2.294 2.294 0 0 1-2.254 2.325 2.293 2.293 0 0 1-2.31-2.264l-.02-1.744a6.772 6.772 0 0 0-4.38 6.421z"/>
+                <path fill="#6C63FF" d="M32.901 13.958c0-3.74-3.016-6.772-6.738-6.772-3.722 0-6.739 3.031-6.739 6.772a6.772 6.772 0 0 0 4.457 6.37v-1.743a2.293 2.293 0 0 1 2.282-2.292 2.293 2.293 0 0 1 2.281 2.292v1.745a6.772 6.772 0 0 0 4.457-6.372z"/>
+                <ellipse cx="26.167" cy="13.027" fill="#FFF" stroke="#FFF" stroke-width=".5" rx="2.59" ry="2.602"/>
+                <path fill="#FFF" stroke="#FFF" stroke-width=".5" d="M26.163 16.293a2.293 2.293 0 0 0-2.282 2.292v1.745a6.734 6.734 0 0 0 4.563 0v-1.745a2.293 2.293 0 0 0-2.281-2.292zM23.555 12.883a2.534 2.534 0 0 1-.276-1.312c.03-.455.235-.88.574-1.187.377-.323.888-.437 1.383-.476.494-.04.995-.016 1.481-.113a3.094 3.094 0 0 0 1.977-1.347c.03.381.062.771-.011 1.145-.074.374-.266.746-.59.943.393-.183.35.246.265.502.195.237.668.276.692.582.024.306.02.623-.099.905-.118.282.01.78-.295.801"/>
+                <path fill="#FFF" d="M28.236 10.48s1.805.158.521 2.853"/>
+                <path fill="url(#g)" d="M9.428 49.2h5.58v5.606h-5.58z"/>
+                <path fill="#6C63FF" d="M9.909 49.683h4.617v4.639H9.909z"/>
+                <path fill="#69F0AE" d="M19.433 26.004h13.468v1H19.433z"/>
+                <path fill="#E0E0E0" d="M19.433 27.357h22.704v1H19.433zM19.433 28.71h22.704v1H19.433z"/>
+                <path fill="#69F0AE" d="M19.433 38.085h13.468v1H19.433z"/>
+                <path fill="#E0E0E0" d="M19.433 39.438h22.704v1H19.433zM19.433 40.791h22.704v1H19.433z"/>
+                <path fill="#6C63FF" d="M19.433 50.166h13.468v1H19.433z"/>
+                <path fill="#E0E0E0" d="M19.433 51.519h22.704v1H19.433zM19.433 52.873h22.704v1H19.433z"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,36 @@
+<section class="login_section">
+	<div class="login_content">
+		<div class="tx_r">
+			<button class="login_btn" (click)="onTopBtn()">{{login.btn}}</button>
+		</div>
+		<div>
+			<h3 class="create">{{login.head}}</h3>
+			<p class="sub_tx">{{login.subHead}}</p>
+		</div>
+		<div class="login_box">
+			<form class="example-form">
+			  <mat-form-field class="example-full-width input_tx" *ngIf="!isLogin">
+			    <input matInput placeholder="First Name & Last Name" class="input_tx">
+			  </mat-form-field> 
+			  <mat-form-field class="example-full-width input_tx">
+			    <input matInput placeholder="Email" class="input_tx">
+			  </mat-form-field> 
+			  <mat-form-field class="example-full-width input_tx">
+			    <input matInput placeholder="Password" class="input_tx" type="password">
+			  </mat-form-field>
+			  <mat-form-field class="example-full-width input_tx" *ngIf="!isLogin">
+			    <input matInput placeholder="Mobile Number" class="input_tx" type="text">
+			  </mat-form-field>
+			</form>
+			 <div>
+	        	<p class='forgot'  *ngIf="isLogin"><span class="in_blk">Forgot password?</span></p>
+	        	<p class='forgot'><span class="in_blk" (click)="onLogin()">{{login.navLogin}}</span></p>
+	        </div>
+		</div>
+		<div class="tx_c">
+			<p class="login_using">{{login.oauth}}</p>
+			<button  class="white_btn " (click)="onOauth()"><img src="assets/facebook.svg"/></button>
+			<button  class="white_btn " (click)="onOauth()"><img src="assets/google-plus.svg"/></button>
+		</div>
+	</div>
+</section>

@@ -1,4 +1,4 @@
-<!-- <section class="mar_50">
+<section class="mar_50">
     <div class="head">
         <img  alt="img" class="logo" src="assets/monster-com-logo@2x.png"/>
         <img  alt="img" class="logo notify" src="assets/notify.svg"/>
@@ -14,32 +14,87 @@
             <h3 class="head_tx">Recommended Jobs</h3>
             <p class="sub_tx">Get personalised Job recommendations based on your preferences</p>
         </div>
-        <div class="recommend_card">
-            <div>
-            <img src="assets/wipro-new@2x.jpg"  alt="img" class='f_l'>
-            <img src="assets/group-5.svg" class="logo_hightlight"  alt="img">
-                <div class="com_basic_info">
-                    <h3 class="com_title">Graphic Designer</h3>
-                    <p class="com_name">Thoughtworks Inc</p>
-                    <p class="com_loc">Bangalore, India</p>
+        <div class="scrollmenu">
+            <div class="recommend_card each_card mar_r0" (click)="onRecommendJob('1')">
+                <div>
+                <img src="assets/wipro-new@2x.jpg"  alt="img" class='f_l'>
+                <img src="assets/group-5.svg" class="logo_hightlight"  alt="img">
+                    <div class="com_basic_info">
+                        <h3 class="com_title">Graphic Designer</h3>
+                        <p class="com_name">Thoughtworks Inc</p>
+                        <p class="com_loc">Bangalore, India</p>
+                    </div>
+                </div>
+                <div class="com_des_content">
+                    <p class="com_des font_15">We are looking for a graphic designer who can handle...</p>
+                </div>
+                <div class="com_spec">
+                    <div class="pad_7">
+                        <img src="assets/deg.svg"  alt="img" class='img_ver'>
+                        <p class="designation">UI/UX Design</p>
+                    </div>
+                    <div class="pad_7 clear_both">
+                        <img src="assets/suitcase.svg"  alt="img" class='img_ver'>
+                        <p class="experience">2-3 year of experience</p>
+                    </div>
+                </div>
+                <div class="tx_r">
+                    <button class="recommend_apply">Apply</button>
                 </div>
             </div>
-            <div class="com_des_content">
-                <p class="com_des font_15">We are looking for a graphic designer who can handle marketing designs...</p>
-            </div>
-            <div class="com_spec">
-                <div class="pad_7">
-                    <img src="assets/deg.svg"  alt="img" class='img_ver'>
-                    <p class="designation">UI/UX Design</p>
+            <div class="recommend_card each_card mar_r0" (click)="onRecommendJob('2')">
+                <div>
+                    <img src="assets/heptagon.png" width="45px" height="46px"  alt="img" class='f_l'>
+                    <div class="com_basic_info">
+                        <h3 class="com_title">PHP Developer</h3>
+                        <p class="com_name">Heptagon</p>
+                        <p class="com_loc">Coimbatore, India</p>
+                    </div>
                 </div>
-                <div class="pad_7 clear_both">
-                    <img src="assets/suitcase.svg"  alt="img" class='img_ver'>
-                    <p class="experience">2-3 year of experience</p>
+                <div class="com_des_content">
+                    <p class="com_des font_15">Should have strong experience developing web...</p>
                 </div>
-            </div>
-            <div class="tx_r">
-                <button class="recommend_apply">Apply</button>
-            </div>
+                <div class="com_spec">
+                    <div class="pad_7">
+                        <img src="assets/deg.svg"  alt="img" class='img_ver'>
+                        <p class="designation">PHP Developer</p>
+                    </div>
+                    <div class="pad_7 clear_both">
+                        <img src="assets/suitcase.svg"  alt="img" class='img_ver'>
+                        <p class="experience">3-5 year of experience</p>
+                    </div>
+                </div>
+                <div class="tx_r">
+                    <button class="recommend_apply">Apply</button>
+                </div>
+            </div> 
+            <div class="recommend_card each_card" (click)="onRecommendJob('3')">
+                <div>
+                    <img src="assets/wipro-new@2x.jpg"  alt="img" class='f_l'>
+                    <img src="assets/group-5.svg" class="logo_hightlight"  alt="img">
+                    <div class="com_basic_info">
+                        <h3 class="com_title">Web Developer</h3>
+                        <p class="com_name">Thoughtworks Inc</p>
+                        <p class="com_loc">Bangalore, India</p>
+                    </div>
+                </div>
+                <div class="com_des_content">
+                    <p class="com_des font_15">We are hiring candidates for an esteemed hospitality company...</p>
+                </div>
+                <div class="com_spec">
+                    <div class="pad_7">
+                        <img src="assets/deg.svg"  alt="img" class='img_ver'>
+                        <p class="designation">Web Developer/Design</p>
+                    </div>
+                    <div class="pad_7 clear_both">
+                        <img src="assets/suitcase.svg"  alt="img" class='img_ver'>
+                        <p class="experience">2-3 year of experience</p>
+                    </div>
+                </div>
+                <div class="tx_r">
+                    <button class="recommend_apply">Apply</button>
+                </div>
+            </div>   
         </div>
     </div>
     <div class="recommended_job">
@@ -132,5 +187,3 @@
         </a>
     </div> 
 </section>
- -->
- <router-outlet></router-outlet>

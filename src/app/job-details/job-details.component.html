@@ -1,0 +1,140 @@
+<div class="backgroun_img">
+	<img src="assets/job_detail.svg" >
+</div>
+<div class="job_section">
+	<div>
+		<div class="left_arrow" (click)="onGoBack()">
+			<img src="assets/left_arrow.svg">
+		</div>
+		<div  class="logout" (click)="onLogout()">
+			<img src="assets/logout.svg">
+		</div>
+	</div>
+	<div class="recommend_card each_card mar_r0" *ngIf="value == 1">
+		<div>
+		<img src="assets/wipro-new@2x.jpg"  alt="img" class='f_l'>
+		<img src="assets/group-5.svg" class="logo_hightlight"  alt="img">
+		    <div class="com_basic_info">
+		        <h3 class="com_title">Graphic Designer</h3>
+		        <p class="com_name">Thoughtworks Inc</p>
+		        <p class="com_loc">Bangalore, India</p>
+		    </div>
+		</div>
+	<!-- 	<div class="com_des_content">
+		    <p class="com_des font_15">We are looking for a graphic designer who can handle marketing designs...</p>
+		</div> -->
+		<div class="com_spec">
+		    <div class="pad_7">
+		        <img src="assets/deg.svg"  alt="img" class='img_ver'>
+		        <p class="designation">UI/UX Design</p>
+		    </div>
+		    <div class="pad_7 clear_both">
+		        <img src="assets/suitcase.svg"  alt="img" class='img_ver'>
+		        <p class="experience">2-3 year of experience</p>
+		    </div>
+		</div>
+		<div>
+			<div><p class="job_head_tx">Skills</p></div>
+			<div><p class="job_date">UI, Photoshop, Sketch, illustrator, wireframing, user testing</p></div>
+		</div>
+		<div>
+			<div><p class="job_head_tx">Function</p></div>
+			<div><p class="job_date">IT</p></div>
+		</div>
+		<div>
+			<div><p class="job_head_tx">Industry</p></div>
+			<div><p class="job_date">IT computer - softwares</p></div>
+		</div>
+		<div>
+			<div><p class="job_head_tx">Posted on</p></div>
+			<div><p class="job_date">28/02/2018</p></div>
+		</div>
+	</div>
+	<div class="recommend_card each_card mar_r0"  *ngIf="value == 2">
+		<div>
+		    <img src="assets/heptagon.png" width="45px" height="46px"  alt="img" class='f_l'>
+		    <div class="com_basic_info">
+		        <h3 class="com_title">PHP Developer</h3>
+		        <p class="com_name">Heptagon</p>
+		        <p class="com_loc">Coimbatore, India</p>
+		    </div>
+		</div>
+		<!-- <div class="com_des_content">
+		    <p class="com_des font_15">Should have strong experience developing web...</p>
+		</div> -->
+		<div class="com_spec">
+		    <div class="pad_7">
+		        <img src="assets/deg.svg"  alt="img" class='img_ver'>
+		        <p class="designation">PHP Developer</p>
+		    </div>
+		    <div class="pad_7 clear_both">
+		        <img src="assets/suitcase.svg"  alt="img" class='img_ver'>
+		        <p class="experience">3-5 year of experience</p>
+		    </div>
+		</div>
+		<div>
+			<div><p class="job_head_tx">Skills</p></div>
+			<div><p class="job_date">UI, Photoshop, Sketch, illustrator, wireframing, user testing</p></div>
+		</div>
+		<div>
+			<div><p class="job_head_tx">Function</p></div>
+			<div><p class="job_date">IT</p></div>
+		</div>
+		<div>
+			<div><p class="job_head_tx">Industry</p></div>
+			<div><p class="job_date">IT computer - softwares</p></div>
+		</div>
+		<div>
+			<div><p class="job_head_tx">Posted on</p></div>
+			<div><p class="job_date">28/02/2018</p></div>
+		</div>
+	</div> 
+	<div class="recommend_card each_card" *ngIf="value == 3">
+		<div>
+		    <img src="assets/wipro-new@2x.jpg"  alt="img" class='f_l'>
+		    <img src="assets/group-5.svg" class="logo_hightlight"  alt="img">
+		    <div class="com_basic_info">
+		        <h3 class="com_title">Web Developer</h3>
+		        <p class="com_name">Thoughtworks Inc</p>
+		        <p class="com_loc">Bangalore, India</p>
+		    </div>
+		</div>
+	<!-- 	<div class="com_des_content">
+		    <p class="com_des font_15">We are hiring candidates for an esteemed hospitality company...</p>
+		</div> -->
+		<div class="com_spec">
+		    <div class="pad_7">
+		        <img src="assets/deg.svg"  alt="img" class='img_ver'>
+		        <p class="designation">Web Developer/Design</p>
+		    </div>
+		    <div class="pad_7 clear_both">
+		        <img src="assets/suitcase.svg"  alt="img" class='img_ver'>
+		        <p class="experience">2-3 year of experience</p>
+		    </div>
+		</div>
+		<div>
+			<div><p class="job_head_tx">Skills</p></div>
+			<div><p class="job_date">UI, Photoshop, Sketch, illustrator, wireframing, user testing</p></div>
+		</div>
+		<div>
+			<div><p class="job_head_tx">Function</p></div>
+			<div><p class="job_date">IT</p></div>
+		</div>
+		<div>
+			<div><p class="job_head_tx">Industry</p></div>
+			<div><p class="job_date">IT computer - softwares</p></div>
+		</div>
+		<div>
+			<div><p class="job_head_tx">Posted on</p></div>
+			<div><p class="job_date">28/02/2018</p></div>
+		</div>
+	</div>  
+	<div class="fixed_save">
+		<div class="bottom_btn">
+            <button class="recommend_apply save_btn"><img src="assets/save.svg" width="20px" alt="" class="save_img">Save</button>
+        </div>
+         <div class="bottom_btn">
+            <button class="recommend_apply apply_btn">Apply</button>
+        </div>
+	</div>
+</div>

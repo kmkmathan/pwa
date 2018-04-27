@@ -1,0 +1,95 @@
+.login_btn {
+	background: #6C2AB5 !important;
+    border-radius: 20px !important;
+    line-height: inherit;
+    margin: 20px !important;
+    font-weight: bold !important;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    color: #fff !important;
+}
+.create {
+	margin: 0px;
+    color: #000;
+    font-weight: bolder;
+    font-size: 25px;
+    padding-left: 25px;
+}
+.in_blk {
+	display: inline-block;
+	 cursor: pointer;
+}
+.sub_tx {
+	color: #9a9a9a;
+	margin:0px;
+	font-weight: 500px;
+	padding-left:25px; 
+	padding-top: 3px;
+}
+.login_content {
+	margin: auto;
+	max-width: 500px;
+}
+.tx_r {
+	text-align: right;
+}
+.login_section {
+	min-height: 100vh;
+    background-color: #f0f0f0;
+    padding-bottom: 10px;
+}
+.login_box {
+	margin: 15px;
+    background: #fff;
+    padding: 20px 20px;
+ 	text-align: center; 
+ 	max-width: 500px;
+    border-radius: 8px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.14);
+}
+.tx_c {
+	text-align: center;
+}
+.forgot {
+	margin: 4px;
+    text-align: right;
+    color: #333333;
+    text-decoration: underline;
+}
+.forgot:hover {
+	text-decoration: underline;
+}
+.input_tx {
+	width: 100%;
+}
+.login_using {
+	color: #9b9b9b;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+.white_btn {
+	    border-radius: 30px !important;
+    line-height: inherit;
+    margin: 10px !important;
+    font-weight: bold !important;
+    border: none;
+    padding: 9px 34px;
+    cursor: pointer;
+	background-color: #fff !important;
+  box-shadow: 0 0 4px 0 rgba(56, 82, 138, 0.18) !important;
+}
+.white_btn:focus, .login_btn:focus {
+	outline: none;
+}
+.white_btn img {
+	margin-top: 3px;
+}
+.mat-focused .mat-form-field-label {
+	color: #6C2AB5 !important;
+	font-size: 15px !important;
+}
+
+.mat-form-field-ripple {
+background-color: #6C2AB5 !important;
+}

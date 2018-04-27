@@ -1,1 +1,19 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
 /* You can add global styles to this file, and also import other style files */
+@font-face { font-family: "helvetica-neue"; src: url("./assets/fonts/helvetica-neue.ttf"); }
+@font-face { font-family: "helvetica-neue-bold"; src: url("./assets/fonts/helvetica-neue-bold.ttf"); }
+@font-face { font-family: ""; src: url("./assets/fonts/HelveticaNeueLight.ttf"); }
+@font-face { font-family: "helvetica-neue-medium"; src: url("./assets/fonts/helvetica-neue-medium.ttf"); }
+/*platform */
+body {
+	margin:0px;
+  /*  overflow: hidden;*/
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+	font-family: "HelveticaNeueLight","HelveticaNeue Light", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
+
