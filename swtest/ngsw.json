@@ -9,7 +9,7 @@
       "urls": [
         "https://kmkmathan.github.io/pwa/favicon.ico",
         "https://kmkmathan.github.io/pwa/index.html",
-        "https://kmkmathan.github.io/pwa/main.bd1e25c6b9f22783f7e6.js",
+        "https://kmkmathan.github.io/pwa/main.0ec4e0ba49ce15c81a60.js",
         "https://kmkmathan.github.io/pwa/polyfills.2903ad11212d7d797800.js",
         "https://kmkmathan.github.io/pwa/runtime.6afe30102d8fe7337431.js",
         "https://kmkmathan.github.io/pwa/styles.34c57ab7888ec1573f9c.css"
@@ -37,9 +37,9 @@
   "hashTable": {
     "https://kmkmathan.github.io/pwa/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
     "https://kmkmathan.github.io/pwa/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "https://kmkmathan.github.io/pwa/index.html": "53ead8005b45e5bf7d247993a7f31d30e5a6094f",
+    "https://kmkmathan.github.io/pwa/index.html": "a52a51b039a7785cee35f52351e43a08b291b3b5",
     "https://kmkmathan.github.io/pwa/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "https://kmkmathan.github.io/pwa/main.bd1e25c6b9f22783f7e6.js": "21d2b0e89d5b60d53a151c12b28e11af7d163255",
+    "https://kmkmathan.github.io/pwa/main.0ec4e0ba49ce15c81a60.js": "17a80c5147603d89ff3283b7b868251e6210b7cf",
     "https://kmkmathan.github.io/pwa/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
     "https://kmkmathan.github.io/pwa/polyfills.2903ad11212d7d797800.js": "193f6d7b77c2bce633da2f543082303b4f32d7ed",
     "https://kmkmathan.github.io/pwa/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
